@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Pattern2
+class Inverted
 {
 public static void main(String args[])
 {
@@ -7,7 +7,7 @@ public static void main(String args[])
 	int i,n,j,k;
 	System.out.println("enter the n value:");
 	n=s.nextInt();
-	for(i=1;i<=n;i++)
+	for(i=n-1;i>=1;i--)
 	{
 		for(k=0;k<=n-i;k++)
 		{

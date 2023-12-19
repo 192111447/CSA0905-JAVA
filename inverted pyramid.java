@@ -1,13 +1,13 @@
 import java.util.Scanner;
-class Pattern2
+class Pattern4
 {
 public static void main(String args[])
 {
-	Scanner s=new Scanner(System.in);
-	int i,n,j,k;
-	System.out.println("enter the n value:");
-	n=s.nextInt();
-	for(i=1;i<=n;i++)
+int i,j,k;
+Scanner input=new Scanner(System.in);
+System.out.println("Enter n value:");
+int n=input.nextInt(); 
+for(i=n;i>=1;i--)
 	{
 		for(k=0;k<=n-i;k++)
 		{
@@ -15,10 +15,9 @@ public static void main(String args[])
 		}
 		for(j=1;j<=i;j++)
 		{
-			System.out.print("* ");
+			System.out.print(" "+i);
                 }
 		System.out.println();
 	}
-	
 }
 }
